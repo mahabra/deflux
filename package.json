@@ -1,0 +1,26 @@
+{
+  "name": "deflux",
+  "version": "0.0.1",
+  "description": "Redux like tool with strict data validation",
+  "main": "src/Deflux.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morulus/deflux.git"
+  },
+  "keywords": [
+    "flux",
+    "redux"
+  ],
+  "author": "Vladimir Kalmykov <vladimirmorulus@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morulus/deflux/issues"
+  },
+  "homepage": "https://github.com/morulus/deflux#readme",
+  "devDependencies": {
+    "ava": "^0.15.2"
+  }
+}
