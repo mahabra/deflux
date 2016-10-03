@@ -25,7 +25,7 @@ function validate(key, value, validator) {
 					valid = new Error(key+' must be an object');
 				}
 			} else {
-				if (!(value instanceof validator)) valid = new Error(key+' must be instance of '+validator);
+				if (!(value.constructor && value.constructor===validator || value instanceof validator)) valid = new Error(key+' must be instance of '+validator);
 			}
 		} else if ("function"===typeof validator) {
 			valid = validator(value);
